@@ -1,0 +1,64 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+   
+}
+
+
+.pulse-anim {
+   width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+
+    box-shadow: 0 0 0 0 #000;
+    animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
+    }
+}
+
+
+/* Nope-anim */
+
+
+
+@keyframes nope {
+
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(-10px);
+    }
+    40% {
+        transform: translateX(10px);
+    }
+    60% {
+        transform: translateX(-10px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+
+/* Apparition */
+
+
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,1090 @@
+@import  url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+*{
+    font-family: 'Nova Square',cursive;
+}
+/*tout les medias*/
+/*
+ .progress-bar-container:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+    font-family: 'Nova Square',cursive;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    margin-top: 2px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);
+}
+.ecrire{
+    font-size: 14px;
+}
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: orange;
+    border-radius: 5px;
+    animation: progress 1500ms infinite;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 85%;
+}
+
+.java {
+    width: 70%;
+}
+
+.python {
+    width: 55%;
+}
+
+.html {
+    width: 75%;
+}
+
+.css {
+    width: 65%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+.container1{
+    background-color: #66806a;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 60px 0px 60px 0px;
+}
+.container2{
+    background-color: white;
+    width: 100%;
+    display: inline-flex;
+}
+.general{
+    width: 100%;
+    display: inline-flex;
+}
+.horizontal_nav{
+width: 9%;
+color: yellow;
+
+margin-right: 0px;
+}
+.o{
+    background-color:#66806a;
+    height: 600px;
+    margin-top: 0px;
+}
+.big_container{
+    color: white;
+width: 85%;
+display: inline-flex;
+margin-left: 300px;
+
+}
+.texte{
+width: 30%;
+background-color:white;
+color: black;
+margin-left: -8px;
+}
+.images{
+    width: 75%;
+    background-color: white;
+    display: flex;
+    margin-left: px;
+}
+.div1{
+    background-color:white;
+    width: 40%;
+    color: black;
+    margin-right: 0px;
+}
+
+.bouton1{
+    width:"50%";
+    height:"20px";
+    color: white;
+    background-color: black;
+
+
+}
+.my_Image{
+    width: 300px;
+    height: 300px;
+}
+
+.name{
+    background-color: white;
+    color: blue;
+    margin-top: 0px;
+    
+    font-family: 'Nova Square',cursive;
+}
+.proffession{
+    background-color: white;
+    color: black;
+    font-family:'Nova Square',cursive ;
+    margin-top:-20px;
+    
+}
+.formulaire{
+width: 400px;
+height: 400px;
+background-color: #f0f0f1;
+   
+    padding-left: 10px;
+    color: black;
+    position: fixed;
+    margin-left: 12px;
+   
+}
+.para1{
+    margin-left: 15px; 
+    color: black;
+    font-size:18px ;
+    visibility: hidden;
+
+
+
+}
+input{
+    width: 80%;
+    
+    background-color: buttonface;
+        border: 2px outset buttonface;
+        color: buttontext;
+        cursor: default;
+        font: -moz-button;
+        line-height: normal;
+        padding: 0 6px;
+        text-align: center;
+        text-shadow: none;
+        white-space: pre;
+        height: 20px;
+        border-radius: 60px;
+    
+}
+textarea{
+    width: 80%;
+    line-height: normal;
+    height: 20px;
+    border-radius: 60px;
+}
+.submit_btn{
+    width: 50%;
+    border-radius: 60px;
+
+    
+}
+.div11{
+    width: 100%;
+
+
+}
+.liste{
+    list-style: none;
+}
+.listes{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 25px;
+    color:black;
+   
+}
+.ui{
+    position:fixed;
+}
+.ho{
+    margin-right: 12px;
+    display: inline-flex;
+    list-style: none;
+    
+    color:black;
+    
+}
+.image_left{
+    width: 100%;
+    height: 200px;
+    margin-left: 25px;
+}
+.trait{
+    height: 592px;
+    position: absolute;
+    border-left: 15px black;
+    background-color:#a4be7b;
+    width: 9px;
+    margin-top: -496px;
+    border-radius: 60px;
+    
+    /*transform:rotateZ(-30deg);*/
+
+}
+.trai{
+    position: absolute;
+    
+    background-color:#a4be7b;
+    width: 9px;
+    margin-top: 10px;
+    height: 85px;
+    margin-top: -10px;
+    transform: rotateZ(-40deg);
+    margin-left: 25px;
+    border-radius: 60px;
+}
+.page{
+    background-color: ;
+    color: white;
+    width: 15%;
+    text-align: center;
+    border-radius:25px;
+    height: 65px;
+    font-weight: bold;
+
+    
+}
+
+/*.page:hover{
+    background-color: ;
+
+}*/
+.bouton{
+
+    width: 40%;
+    background-color: #e6e6e6;
+    display: flex;
+    margin-left: 0px;
+    border-radius: 60px 0px 60px 0px;
+    
+}
+.tout{
+    display: flex;
+
+}
+.con{
+    margin-top: 64px;
+}
+.con1{
+    margin-left: -59px;
+}
+.c{
+    margin-left: 60px;
+
+    
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    background-color: #66806a;
+    display: inline-flex;
+    margin-top:5px ;
+
+
+
+}*
+.footer1{
+width: 25%;
+background-color: #a4be7b solid;
+color: white;
+}
+.footer2{
+width: 25%;
+background-color: #f0f0f1;
+color: black;
+}
+
+.footer3{
+width: 50%;
+
+background-color: #66806a;
+}
+
+.h22{
+    font-weight: bold;
+
+}
+.tee1{
+    transform:rotateZ(300deg);
+}
+.tee2{
+    transform:rotateZ(-60deg);
+}
+.tee3{
+    transform:rotateZ(-30deg);
+}
+.tee4{
+    transform:rotateZ(-60deg);
+}
+.ah{
+    text-decoration: none;
+    color: black;
+}
+.ah:hover{
+outline-color: blue;
+outline-style:initial;
+    font-weight: bold;
+}
+.recour{
+    
+    visibility: hidden;
+}
+
+/*css                       */
+
+
+
+
+
+
+.cla logo{
+    max-width: 320px;
+    width: auto;
+   font-weight:100px;
+   margin-top: 10px;
+   font-size:25px;
+    text-transform: uppercase;
+  
+
+}
+.cla strong{
+    font-weight: black;
+}
+.cla span{
+    overflow: hidden;
+    display: inline-block;
+    line-height:0.9;
+}
+.cla span span{
+ 
+    animation: titleReveal .9s both ;
+    display: block;
+}
+@keyframes titleReveal{
+    from{
+        opacity:1;
+        transform: translateY(100%);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.page-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: yellow;
+    opacity: .5;
+}
+.portfolio{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+  justify-content: center;
+  display: inline-block;
+  font-size: 30px;
+  
+}
+.soir{
+    background-color: black;
+    height: 425px;
+    width: 100%;
+    padding-left: 12px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.soire{
+    margin-right:0px;
+    margin-left:6px;
+    text-align:center;
+    width:100%;
+    height:20px;
+    margin-top: 1px;
+}
+.dou{
+    display: inline-block;
+}
+.gou{
+    display: inline-flex;
+}
+y.loue{
+    margin-left:-70px;
+}
+.lou{
+    margin-left: -10px;
+    width: 200px;
+}
+.loue li{
+    list-style: none;
+    margin-left: 0px;
+    margin-left:70px;
+}
+.logo{
+    color:black;
+    font-size: 30px;
+    font-family: 'Nova Square',cursive;
+    font-weight: bold;
+  
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px white,
+    1px 2px 1px white,
+    1px 3px 1px white,
+    1px 4px 1px white,
+    1px 5px 1px white,
+    1px 6px 1px white,
+    1px 7px 1px white,
+    1px 8px 1px white,
+    1px 9px 1px white,
+    1px 10px 1px white,
+       1px 18px 6px rgba(16,16,16,0.4),
+       1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+       1px 30px 60px rgba(16,16,16,0.4);
+   
+
+    
+}
+ 
+ .formation{
+    width: 450px;
+   height: 850px;
+   background: url(../img/fond.png);
+   background-repeat: no-repeat;
+   position: fixed;
+   margin-left: 300px;
+   
+
+  
+ 
+ }
+ .lo{
+    display: inline-block;
+ }
+ .div12{
+    
+    width:100%;
+    background-color: white;
+ }
+ .souligner{
+    text-decoration: underline;
+ }
+ .traite{
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    border-left: 15px black;
+    background-color:#a4be7b;
+    border-radius: 60px;
+ }
+ .fo{
+    display: block;
+ }
+ .haut{
+    margin-top: 252px;
+ }
+ .animation{
+    animation-name: striped;
+ }
+
+ /*pour les phones*/
+ @media  (max-width:991.98px){
+
+    
+    .progress-bar-container:not(:last-child) {
+        margin-bottom: 6px;
+    }
+    
+    /* Styling the h2 tag by giving color,
+    letter spacing, font-size etc.*/
+    .progress-bar-container h2 {
+        font-family: 'Nova Square',cursive;
+        color: #eee;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    
+    /* Styling the border and box
+    effect of the progress bar*/
+    .progress-bar {
+        width: 100%;
+        height: 5px;
+        margin-top: 5px;
+        border: 1px solid #565656;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(245, 159, 0);
+    }
+    
+    /* Stylingthe background color of each
+    animation and border radius */
+    .percentage {
+        display: block;
+        height: 100%;
+        background-color: orange;
+        border-radius: 5px;
+        animation: progress 1500ms infinite;
+    }
+    
+    /* Assigning width of each languages*/
+    .cd {
+        width: 85%;
+    }
+    
+    .java {
+        width: 70%;
+    }
+    
+    .python {
+        width: 55%;
+    }
+    
+    .html {
+        width: 75%;
+    }
+    
+    .css {
+        width: 65%;
+    }
+    
+    .javascript {
+        width: 55%;
+    }
+    
+    /* Animating the progress bar by
+    initially starting from 0*/
+    @keyframes progress {
+        from {
+            width: 0;
+        }
+    }
+    .container1{
+        background-color: #66806a;
+      
+        
+        margin-bottom: 5px;
+        border-radius: 60px 0px 60px 0px;
+    }
+    .container2{
+        background-color: white;
+        width: 100%;
+        display: inline-block;
+    }
+   
+    .horizontal_nav{
+    width: 0%;
+    
+    
+    margin-right: -200px;
+    }
+    .kl{
+        width: -912px;
+        
+    }
+    .o{
+      margin-left: 275px;  
+      background: none;
+      position: fixed;
+    }
+    .big_container{
+        color: white;
+    width: 85%;
+
+    display: inline-flex;
+    margin-left:- 900px;
+    
+    }
+    .texte{
+    width: 100%;
+    background-color:white;
+    color: black;
+    margin-left: 0px;
+    }
+    .images{
+        width: 75%;
+        background-color: white;
+        display: block;
+        margin-left: px;
+    }
+    .div1{
+        background-color:white;
+        width: 40%;
+        color: black;
+        margin-right: 0px;
+    }
+    
+    .bouton1{
+        width:"50%";
+        height:"20px";
+        color: white;
+        background-color: black;
+    
+    
+    }
+    .my_Image{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .name{
+        background-color: white;
+        color: blue;
+        margin-top: 0px;
+        
+        font-family: 'Nova Square',cursive;
+    }
+    .proffession{
+        background-color: white;
+        color: black;
+        font-family: 'Nova Square',cursive;
+        margin-top:-20px;
+        
+    }
+    .formulaire{
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f1;
+       
+        padding-left: 10px;
+        color: black;
+        position: ;
+        margin-left: 12px;
+       
+    }
+    .para1{
+        margin-left: 15px; 
+        color: black;
+        font-size:18px ;
+        background-color: #d3d3d3;
+    
+    
+    }
+    .recour{
+        visibility: visible;
+    }
+    input{
+        width: 80%;
+        
+        background-color: buttonface;
+            border: 2px outset buttonface;
+            color: buttontext;
+            cursor: default;
+            font: -moz-button;
+            line-height: normal;
+            padding: 0 6px;
+            text-align: center;
+            text-shadow: none;
+            white-space: pre;
+            height: 20px;
+            border-radius: 60px;
+        
+    }
+    textarea{
+        width: 80%;
+        line-height: normal;
+        height: 20px;
+        border-radius: 60px;
+    }
+   
+        
+   
+    .submit_btn{
+        width: 50%;
+        border-radius: 60px;
+    
+    }
+    
+    .div11{
+        width: 100%;
+    }
+    .liste{
+        list-style: none;
+    }
+    .listes{
+        display: inline-flex;
+
+        list-style: none;
+        margin-top: 39px;
+        margin-left: -90px;
+        
+        color:black;
+    }
+    .ui{
+        position:fixed;
+    }
+    textarea{
+        width: 75%;
+        line-height: normal;
+        height: 20px;
+        border-radius: 60px;
+    }
+    .para{
+        margin-left: -50px;
+        visibility: visible;
+    }
+    .ho{
+        margin-right: 12px;
+        display: inline-flex;
+        list-style: none;
+        
+        color:black;
+        
+    }
+    .image_left{
+        width: 100%;
+        height: 200px;
+        margin-left: 25px;
+    }
+    .trait{
+        display: none;
+        height: 592px;
+        position: absolute;
+        border-left: 15px black;
+        background-color:#a4be7b;
+        width: 9px;
+        margin-top: -496px;
+        border-radius: 60px;
+        
+        /*transform:rotateZ(-30deg);*/
+    
+    }
+    .trai{
+        position: absolute;
+        
+        background-color:#a4be7b;
+        width: 9px;
+        margin-top: 10px;
+        height: 85px;
+        margin-top: -10px;
+        transform: rotateZ(-40deg);
+        margin-left: 25px;
+        border-radius: 60px;
+    }
+    .page{
+        background-color: ;
+        color: white;
+        width: 15%;
+        text-align: center;
+        border-radius:25px;
+        height: 65px;
+        font-weight: bold;
+    
+        
+    }
+    
+    /*.page:hover{
+        background-color: ;
+    
+    }*/
+    .bouton{
+
+        
+        
+        
+        
+    }
+    .tout{
+       /* display:inline-block; */
+       display: inline-block;
+       width: 100%;
+       
+    
+    }
+    .c{
+        margin-left: 60px;
+    
+        
+    }
+    .cd{
+        margin-left: 0px;
+    
+        
+    }
+    .footer{
+        width: 100%;
+        height: 45px;
+        background-color: #66806a;
+        display: inline-flex;
+        margin-top:5px ;
+    
+    
+    
+    }*
+    .footer1{
+    width: 25%;
+    background-color: #a4be7b solid;
+    color: white;
+    }
+    .footer2{
+    width: 25%;
+    background-color: #f0f0f1;
+    color: black;
+    }
+    
+    .footer3{
+    width: 50%;
+    
+    background-color: #66806a;
+    }
+    
+    .h22{
+        font-weight: bold;
+    
+    }
+    .tee1{
+        transform:rotateZ(300deg);
+    }
+    .tee2{
+        transform:rotateZ(-60deg);
+    }
+    .tee3{
+        transform:rotateZ(-30deg);
+    }
+    .tee4{
+        transform:rotateZ(-60deg);
+    }
+    .ah{
+        text-decoration: none;
+        color: black;
+    }
+    .ah:hover{
+    outline-color: blue;
+    outline-style:initial;
+        font-weight: bold;
+    }
+    
+    /*css                       */
+    
+    
+    
+    
+    
+    
+    .cla logo{
+        
+        width: auto;
+       font-weight:100px;
+       margin-top: 10px;
+       font-size:14px;
+        text-transform: uppercase;
+        margin-left: 50%;
+      
+    
+    }
+    .cla strong{
+        font-weight: black;
+    }
+    .vue{
+        align-items: center;
+    }
+    .cla span{
+        overflow: hidden;
+        display: inline-block;
+        line-height:0.9;
+       align-items: center;
+    }
+    .cla span span{
+     
+        animation: titleReveal .9s both infinite;
+        display: block;
+    }
+    @keyframes titleReveal{
+        from{
+            opacity:1;
+            transform: translateY(100%);
+    
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .page-absolute{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: yellow;
+        opacity: .5;
+    }
+    .portfolio{
+        width: 100%;
+        height: 100px;
+        align-items: center;
+      justify-content: center;
+      display: inline-block;
+      font-size: 30px;
+      
+    }
+    .soir{
+        background-color: black;
+        height: 260px;
+        width: 376px;
+        padding-left: 12px;
+        margin-top: -52px;
+        margin-left: 0px;
+        margin-right: 0px;
+icon    }
+    .soire{
+        margin-right:0px;
+        margin-left:6px;
+        text-align:left;
+        width:100%;
+        height:20px;
+        margin-top: 45px;
+    }
+    .dou{
+       
+    }
+    .gou{
+        display: inline-flex;
+    }
+    .my_image{
+        width:100px ;
+        height:100px ;
+        margin-top: -10px;
+    }
+    .{
+        width: 40px;
+        height: 40px;
+    }
+    .icon2{
+        width: 40px;
+        height: 40px;
+        margin-top: -15px;
+    }
+    .icon3{
+        width: 40px;
+        height: 40px;
+        margin-top:42px ;
+        margin-left: 15px;
+    }
+    .icon4{
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 85px;
+    }
+    .loue{
+        margin-left:0px;
+        margin-top:60px;
+    }
+    .lou{
+        margin-left: -10px;
+    }
+    .loue li{
+        list-style: none;
+        width: 80px;
+        height: 80px;
+        margin-top: -52px;
+    }
+    .logo{
+        color:black;
+        font-size: 15px;
+        font-family: 'Nova Square',cursive;
+        font-weight: bold;
+      
+        
+        text-shadow: 1px 1px 1px white,
+        1px 2px 1px white,
+        1px 3px 1px white,
+        1px 4px 1px white,
+        1px 5px 1px white,
+        1px 6px 1px white,
+        1px 7px 1px white,
+        1px 8px 1px white,
+        1px 9px 1px white,
+        1px 10px 1px white,
+           1px 18px 6px rgba(16,16,16,0.4),
+           1px 22px 10px rgba(16,16,16,0.2),
+            1px 25px 35px rgba(16,16,16,0.2),
+           1px 30px 60px rgba(16,16,16,0.4);
+       
+    
+        
+    }
+     .para1{
+        color: white;
+        font-size: 14px;
+        font-family: 'Nova Square',cursive;
+        visibility: visible;
+     }
+     .formation{
+        width: 450px;
+       height: 850px;
+       background: url(../img/fond.png);
+       background-repeat: no-repeat;
+       
+       margin-left: px;
+       display: inline-block;
+       
+    
+      
+     
+     }
+     .do{
+        width: 100%;
+     }
+     .do1{
+        text-align: initial;
+     }
+     .lo{
+        display: inline-block;
+     }
+     .div12{
+        width: 100%;
+        margin-right:- 12px;
+        background-color: white;
+     }
+     .souligner{
+        text-decoration: underline;
+     }
+     .grand{
+        display: inline-block;
+     }
+     .traite{
+        width: 20%;
+        height: 5px;
+        position: absolute;
+        border-left: 15px black;
+        background-color:#a4be7b;
+        border-radius: 60px;
+     }
+     .fo{
+        display: block;
+     }
+     .haut{
+        margin-top: 252px;
+     }
+     .animation{
+        animation-name: striped;
+     }
+
+ }
+ /* pc and tv*/
+ @media( min-width:992px) and(max-width:1199.98px) {
+ 
+}
+
